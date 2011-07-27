@@ -10,8 +10,7 @@
 		xmlns:components="components.*"
 		showStatusBar="false"
 		title="qui {getAppVersion()}"
-		creationComplete="this_creationCompleteHandler(event)"
-		xmlns:ui="ui.*">
+		creationComplete="this_creationCompleteHandler(event)">
 	<fx:Declarations>
 		<s:Sequence id="shake"
 				target="{resultt}"
